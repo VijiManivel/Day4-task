@@ -1,7 +1,7 @@
 // Practise code : XML Http Request
 var request = new XMLHttpRequest();
 
-request.open('GET','https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json',true);
+request.open('GET','https://restcountries.com/v3.1/all',true);
 
 request.send();
 
